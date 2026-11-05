@@ -1,0 +1,41 @@
+## Aurelix: clean, tested web data tools
+
+Aurelix builds web data tools on the [Apify Store](https://apify.com/aurelix) for **jobs, e-commerce, lead generation, ad research and public records**. Every tool is built to do one job well, at a fair price.
+
+### What to expect from every tool
+
+- **Tested before release.** Each tool passes an independent check: records compared field by field against the source, edge cases, and a privacy scan.
+- **Pay only for results.** Clear per-result pricing, no charge for duplicates or empty searches, and lower prices on paid Apify plans.
+- **No login, ever.** Tools read only public pages any logged-out visitor can see, at a polite pace.
+- **Privacy built in.** Business data and business contacts are kept, private individuals' details are removed, and removal requests are honoured.
+- **Maintained daily.** Automatic health checks catch site changes early, and issues get a reply within one business day.
+
+### Tools by use case
+
+Each line says why the tool beats the leading alternatives on the Apify Store, from the comparison table on its Store page.
+
+**Jobs and hiring**
+
+- [LinkedIn Jobs Scraper](https://apify.com/aurelix/linkedin-jobs) - LinkedIn job postings by keyword, country and date posted, with no login: title, company, location, salary where shown, seniority and description. Why this one: exact country filter and filtered-out jobs free; 25% under the most-used LinkedIn scraper. [Example](https://github.com/Aurelix-Solutions/linkedin-jobs-example)
+- [Greenhouse Jobs Scraper](https://apify.com/aurelix/greenhouse-jobs-scraper) - Jobs straight from company career sites on Greenhouse, Lever, Ashby and SmartRecruiters, in one schema with salary, remote flag and apply link. Why this one: 8x cheaper than the leading jobs API and 40% under the leading feed, read live from each employer's board. [Example](https://github.com/Aurelix-Solutions/career-site-jobs-example)
+
+**E-commerce and product research**
+
+- [Amazon Best Sellers Scraper](https://apify.com/aurelix/amazon-best-sellers) - Amazon Best Sellers and New Releases by category in 10 marketplaces: rank, ASIN, price, rating and reviews, plus rank changes since your last run. Why this one: 69% under the most-used Best Sellers scraper ($1.80 vs $5.90 per 1,000), 10 marketplaces incl. amazon.ca. [Example](https://github.com/Aurelix-Solutions/amazon-best-sellers-example)
+- [AliExpress Scraper](https://apify.com/aurelix/aliexpress-product-search) - AliExpress search results for any keyword: price, original price, discount, rating, units sold and ship-from country. Why this one: cheapest of the three we compared ($1.80 vs $2.49-$9.00 per 1,000), sponsored results flagged. [Example](https://github.com/Aurelix-Solutions/aliexpress-product-search-example)
+
+**Public records**
+
+- [Canada Building Permits Scraper](https://apify.com/aurelix/canada-building-permits-scraper) - Development applications and building permits from seven Canadian cities' open data: address, ward, type, status and value. No owner names. Why this one: the only one with development applications and a ward filter, and the cheapest of the three ($3.00 vs $3.50-$5.00). [Example](https://github.com/Aurelix-Solutions/canada-development-applications-example)
+
+**Marketing and SEO research**
+
+- [Google Trends Scraper](https://apify.com/aurelix/google-trends-scraper) - Google Trends for any number of keywords on one 0-100 scale: interest over time, interest by country, state, metro or city, and top and rising related queries. Why this one: $1.50 per 1,000 results vs $3.00 plus platform usage for Apify's own Google Trends Scraper, and it accepts Google Trends explore links. [Example](https://github.com/Aurelix-Solutions/google-trends-example)
+
+### Example code
+
+Each tool has a small public example repo, `Aurelix-Solutions/<tool>-example`, with a runnable Python script (apify-client) that starts the tool, prints a few fields and saves a CSV, plus notes on Google Sheets and n8n. The code is MIT licensed. [awesome-aurelix](https://github.com/Aurelix-Solutions/awesome-aurelix) lists them all.
+
+### Need something?
+
+Open an issue on any tool's **Issues** tab on the Apify Store for bugs, feature requests or a custom data source. Feedback and reviews help us decide what to build next.
