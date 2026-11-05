@@ -28,6 +28,10 @@ Each line says why the tool beats the leading alternatives on the Apify Store, f
 
 - [Google Maps Business Scraper](https://apify.com/aurelix/google-maps-scraper) - Google Maps business listings by keyword and city: categories, address, phone, website, rating, hours and coordinates. No review text. Why this one: $1.50 per 1,000 places, less than half the leading Google Maps scrapers ($4-5), with many cities per run and an only-new-places mode. [Example](https://github.com/Aurelix-Solutions/google-maps-businesses-example)
 
+**Ad research**
+
+- [Facebook Ad Library Scraper](https://apify.com/aurelix/facebook-ad-library-scraper) - Business ads from the public Meta Ad Library by keyword, page ID or Ad Library URL: ad text, media links, dates and platforms. Political ads excluded. Why this one: $0.70 per 1,000 ads vs $5.80 for Apify's own Facebook Ads Scraper, with exact limits and a new-ads-only mode. [Example](https://github.com/Aurelix-Solutions/facebook-ad-library-example)
+
 **Public records**
 
 - [Canada Building Permits Scraper](https://apify.com/aurelix/canada-building-permits-scraper) - Development applications and building permits from seven Canadian cities' open data: address, ward, type, status and value. No owner names. Why this one: the only one with development applications and a ward filter, and the cheapest of the three ($3.00 vs $3.50-$5.00). [Example](https://github.com/Aurelix-Solutions/canada-development-applications-example)
