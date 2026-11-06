@@ -12,6 +12,8 @@ cd linkedin-jobs-example && pip install -r requirements.txt
 export APIFY_TOKEN=your_token_here && python main.py
 ```
 
+**Tools site:** every public tool has a page with its live price, example input and output, and an FAQ at [aurelix-solutions.github.io/tools](https://aurelix-solutions.github.io/tools/), plus [step-by-step guides](https://aurelix-solutions.github.io/tools/guides/).
+
 **Price:** pay per result, listed on each tool's Store page, with nothing billed for platform usage on top. Apify's free plan includes $5 of credit a month.
 
 ### What to expect from every tool
