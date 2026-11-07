@@ -67,6 +67,10 @@ Each line says why the tool beats the leading alternatives on the Apify Store, f
 - [Google Autocomplete Scraper](https://apify.com/aurelix/google-autocomplete-scraper) - Keyword ideas from Google Search and YouTube autocomplete: A-Z, 0-9, question and preposition modifiers for every seed, country and language, with intent tags. Why this one: $0.45 per 1,000 keywords vs $0.50-$1.00, and YouTube suggestions in the same run where the alternatives compared are Google only. [Example](https://github.com/Aurelix-Solutions/keyword-expander-example)
 - [Tech Stack Detector](https://apify.com/aurelix/tech-stack-detector) - The technologies a website runs, one row per domain: CMS, e-commerce platform, analytics, ad pixels, chat, payments and hosting, plus the email provider from DNS. Why this one: $1.50 per 1,000 domains vs $2.00 per 1,000 results or $10 per 1,000 sites, reading the live site plus its MX, SPF and DMARC records. [Example](https://github.com/Aurelix-Solutions/tech-stack-detector-example)
 
+**Sports data**
+
+- [Tennis Odds Scraper](https://apify.com/aurelix/tennis-odds-scraper) - Tennis results and bookmaker odds from TennisExplorer, one row per match: ATP, WTA, Challenger, ITF and UTR, score by set, and opening and closing odds per bookmaker. Why this one: opening and closing odds from 10 to 15 bookmakers per match with implied probabilities, at $3 per 1,000 matches vs $8 for the most-used tennis Actor. [Example](https://github.com/Aurelix-Solutions/tennis-odds-scraper-example)
+
 ### Example code
 
 Each tool has a small public example repo, `Aurelix-Solutions/<tool>-example`, with a runnable Python script (apify-client) that starts the tool, prints a few fields and saves a CSV, plus notes on Google Sheets and n8n. The code is MIT licensed. [awesome-aurelix](https://github.com/Aurelix-Solutions/awesome-aurelix) lists them all.
