@@ -64,6 +64,7 @@ Each line says why the tool beats the leading alternatives on the Apify Store, f
 
 - [Google Trends Scraper](https://apify.com/aurelix/google-trends-scraper) - Google Trends for any number of keywords on one 0-100 scale: interest over time, interest by country, state, metro or city, and top and rising related queries. Why this one: $1.50 per 1,000 results vs $3.00 plus platform usage for Apify's own Google Trends Scraper, and it accepts Google Trends explore links. [Example](https://github.com/Aurelix-Solutions/google-trends-example)
 - [Google Autocomplete Scraper](https://apify.com/aurelix/google-autocomplete-scraper) - Keyword ideas from Google Search and YouTube autocomplete: A-Z, 0-9, question and preposition modifiers for every seed, country and language, with intent tags. Why this one: $0.45 per 1,000 keywords vs $0.50-$1.00, and YouTube suggestions in the same run where the alternatives compared are Google only. [Example](https://github.com/Aurelix-Solutions/keyword-expander-example)
+- [Tech Stack Detector](https://apify.com/aurelix/tech-stack-detector) - The technologies a website runs, one row per domain: CMS, e-commerce platform, analytics, ad pixels, chat, payments and hosting, plus the email provider from DNS. Why this one: $1.50 per 1,000 domains vs $2.00 per 1,000 results or $10 per 1,000 sites, reading the live site plus its MX, SPF and DMARC records. [Example](https://github.com/Aurelix-Solutions/tech-stack-detector-example)
 
 ### Example code
 
