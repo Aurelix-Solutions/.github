@@ -57,6 +57,7 @@ Each line says why the tool beats the leading alternatives on the Apify Store, f
 **Web and AI**
 
 - [Website to Markdown Crawler](https://apify.com/aurelix/website-to-markdown) - Each page of a website as clean Markdown of its main content for AI, RAG and LLMs, with title, headings and links. Why this one: a flat $1.50 per 1,000 pages, 34% under Apify's RAG Web Browser and no compute-unit billing; failed pages free. [Example](https://github.com/Aurelix-Solutions/website-to-markdown-example)
+- [SEO Audit Crawler](https://apify.com/aurelix/seo-audit-crawler) - A technical SEO audit of every page and the XML sitemap: status, redirects, meta tags, H1, canonical, noindex and broken links. Why this one: 1/16 the price of the most-used per-page SEO audit Actor, broken links and sitemap gaps included. [Example](https://github.com/Aurelix-Solutions/seo-audit-crawler-example)
 - [PDF to Markdown Converter](https://apify.com/aurelix/pdf-to-markdown) - PDF and Word (DOCX) files from URLs as Markdown per page, with tables as JSON rows, AI-ready chunks and automatic OCR for scanned pages. Why this one: $0.003 for a 10-page PDF vs $0.005 and $0.00345 for the alternatives compared, with Word files and OCR at $8 per 1,000 pages. [Example](https://github.com/Aurelix-Solutions/pdf-to-markdown-example)
 
 **Marketing and SEO research**
